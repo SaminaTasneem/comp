@@ -1,0 +1,60 @@
+.tableimg{
+    width: 70px;
+}
+
+td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+
+td:nth-child(5) {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+td:nth-child(5) button{
+    background-color: #088178;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+td:nth-child(5) .count{
+    color: black;
+    text-align: center;
+    margin-left: 4px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+tr{
+    padding-top: 15px;
+}
+td{
+    font-size: 17px;
+    color: gray;
+}
+
+.remove{
+    color: rgb(64, 21, 220);
+    cursor: pointer;
+}

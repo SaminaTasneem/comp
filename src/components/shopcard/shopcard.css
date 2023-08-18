@@ -1,0 +1,91 @@
+
+.product {
+    max-width: 220px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product:hover {
+    transform: translateY(-10px);
+    /* transform: scale(1.1); */
+  }
+  
+  .product img {
+    width: 190px;
+    height: 150px;
+    object-fit: cover;
+    /* margin-right: 10px; */
+    border-radius: 10px;
+  }
+  
+  .des {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align items at the start */
+    align-items: flex-start; /* Align items at the start */
+  }
+  
+  .des span {
+    font-size: 28px;
+    color: #716f6f;
+  }
+  
+  .des h5 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .star {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+  }
+  
+  .star svg {
+    margin-right: 5px;
+    color: #ffc107; /* Change star color to a soft yellow */
+  }
+  
+  .des h4 {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #008080; /* Change price color to a teal shade */
+  }
+
+  .price-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .cart-icon {
+    margin-left: auto;
+    color: #008080; /* Match the price color */
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+
+  /* Responsive design  */
+
+  @media (max-width: 768px) {
+    .product {
+      max-width: 300px;
+    }
+
+    .product img {
+      width: 260px;
+      height: 260px;
+    }
+
+    
+
+  }

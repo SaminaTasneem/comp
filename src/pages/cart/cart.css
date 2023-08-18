@@ -1,0 +1,16 @@
+.go-back{
+    background: #088178;
+    border: none;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    margin-right: 5px;
+}
+.button {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
